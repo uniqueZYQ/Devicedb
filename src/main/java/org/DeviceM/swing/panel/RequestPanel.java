@@ -103,7 +103,7 @@ public class RequestPanel extends JPanel {
                 datePanel.add(datePicker);
 
                 JPanel periodPanel = new JPanel();
-                JLabel periodLabel = new JLabel("借用时间");
+                JLabel periodLabel = new JLabel("借用天数");
                 JTextField periodTextField = new JTextField();
                 periodTextField.setMaximumSize(new Dimension(200, 30));
                 periodTextField.setPreferredSize(new Dimension(200, 30));

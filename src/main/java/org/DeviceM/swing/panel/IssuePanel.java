@@ -204,7 +204,7 @@ public class IssuePanel extends JPanel {
                             int expectedDay = Integer.parseInt(expected);
                             doEvaluateIssue(expectedDay);
                         } catch (Exception e1) {
-                            JOptionPane.showMessageDialog(box, "请输入正确的日期！");
+                            JOptionPane.showMessageDialog(box, "请选中设备，并输入正确的日期！");
                         }
                     }
                 }
